@@ -1,0 +1,2355 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "95432cb9-1a1c-430c-a1aa-efc958c1c650")
+	(paper "A4")
+	(title_block
+		(rev "V1.0")
+		(company "MyoGen Solutions")
+		(comment 1 "Designed By Eng. Ndambia M.")
+	)
+	(lib_symbols
+		(symbol "Connector:Micro_SD_Card"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -16.51 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Micro_SD_Card"
+				(at 16.51 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 29.21 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://katalog.we-online.de/em/datasheet/693072010801.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Micro SD Card Socket"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector SD microsd"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "microSD*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Micro_SD_Card_0_1"
+				(rectangle
+					(start -7.62 -9.525)
+					(end -5.08 -10.795)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -6.985)
+					(end -5.08 -8.255)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -4.445)
+					(end -5.08 -5.715)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -1.905)
+					(end -5.08 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 0.635)
+					(end -5.08 -0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 3.175)
+					(end -5.08 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 5.715)
+					(end -5.08 4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 8.255)
+					(end -5.08 6.985)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 12.7) (xy 16.51 13.97) (xy -19.05 13.97) (xy -19.05 -16.51) (xy 16.51 -16.51) (xy 16.51 -11.43)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -11.43) (xy -8.89 8.89) (xy -1.27 8.89) (xy 2.54 12.7) (xy 3.81 12.7) (xy 3.81 11.43)
+						(xy 6.35 11.43) (xy 7.62 12.7) (xy 20.32 12.7) (xy 20.32 -11.43) (xy -8.89 -11.43)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Micro_SD_Card_1_1"
+				(pin bidirectional line
+					(at -22.86 7.62 0)
+					(length 3.81)
+					(name "DAT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 5.08 0)
+					(length 3.81)
+					(name "DAT3/CD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 2.54 0)
+					(length 3.81)
+					(name "CMD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 0 0)
+					(length 3.81)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 -2.54 0)
+					(length 3.81)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 -5.08 0)
+					(length 3.81)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -7.62 0)
+					(length 3.81)
+					(name "DAT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -10.16 0)
+					(length 3.81)
+					(name "DAT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -15.24 180)
+					(length 3.81)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "fridgeduino-rescue:+3V3-power"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3-power"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3-power_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3-power_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "fridgeduino-rescue:C_Small-Device"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small-Device"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small-Device_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small-Device_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "fridgeduino-rescue:GND-power"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND-power"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND-power_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND-power_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "fridgeduino-rescue:R_Small_US-Device"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US-Device"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US-Device_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 151.384 30.607)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06c8d2a8-2f93-4a26-a09d-dfce7fa9203d")
+	)
+	(junction
+		(at 114.808 81.026)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65e59017-89dc-447f-a14b-a1e0ce387769")
+	)
+	(junction
+		(at 43.434 32.512)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82a571ae-d3b8-4798-939b-e282c4d7e630")
+	)
+	(junction
+		(at 47.244 32.512)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88f6fc77-cfe7-4dbe-9925-8d0e0f108374")
+	)
+	(junction
+		(at 51.054 32.512)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0e95f25-d367-4b67-87a8-8e0dada9112a")
+	)
+	(junction
+		(at 151.384 38.862)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc798071-3f23-457e-b6bb-a345796de697")
+	)
+	(no_connect
+		(at 135.636 91.186)
+		(uuid "dc8a6dbd-bb1a-4808-ae61-24e9459cc04e")
+	)
+	(no_connect
+		(at 135.636 73.406)
+		(uuid "ec8d434f-5bb0-446b-acf6-6c283ac4a3b1")
+	)
+	(wire
+		(pts
+			(xy 51.054 32.512) (xy 51.054 38.862)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0941b7b5-dc46-4e90-801e-9949a05443e3")
+	)
+	(wire
+		(pts
+			(xy 143.129 38.862) (xy 143.129 36.957)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a01b7bc-0e16-489f-a0d5-38ac35361da1")
+	)
+	(wire
+		(pts
+			(xy 51.054 43.942) (xy 51.054 69.342)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff58e77-4bc7-4cd4-a6e0-39260acd62da")
+	)
+	(wire
+		(pts
+			(xy 112.522 86.106) (xy 112.522 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15a75105-84ca-4e8e-9177-fb60f0d45551")
+	)
+	(wire
+		(pts
+			(xy 47.244 74.422) (xy 56.642 74.422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "179f14dd-80c7-4a67-bee1-2113e210c52d")
+	)
+	(wire
+		(pts
+			(xy 39.624 32.512) (xy 39.624 38.862)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f2dc1bc-2de1-44c2-b9dc-f7150a437744")
+	)
+	(wire
+		(pts
+			(xy 112.522 86.106) (xy 135.636 86.106)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "286aa018-f496-4a85-93de-2c8562480b56")
+	)
+	(wire
+		(pts
+			(xy 43.434 32.512) (xy 39.624 32.512)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a34dcd4-9eb6-4383-956e-feabf7eb4167")
+	)
+	(wire
+		(pts
+			(xy 161.29 38.862) (xy 151.384 38.862)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df032aa-206d-49cb-bd30-1cc2abe86acb")
+	)
+	(wire
+		(pts
+			(xy 47.244 32.512) (xy 43.434 32.512)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ab7e65-0fee-48c3-b1e4-faac1c360647")
+	)
+	(wire
+		(pts
+			(xy 47.244 32.512) (xy 51.054 32.512)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4170ca7b-6447-4533-942c-5b5a410ce39b")
+	)
+	(wire
+		(pts
+			(xy 114.808 69.85) (xy 114.808 81.026)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4586f96b-3113-4fd6-a0f2-a44e60b78412")
+	)
+	(wire
+		(pts
+			(xy 161.29 30.607) (xy 161.29 31.877)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e27f4e9-4822-45a8-b1bc-3b1073b2c374")
+	)
+	(wire
+		(pts
+			(xy 39.624 43.942) (xy 39.624 86.106)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ef3d59a-94b6-487f-ba67-c500f3b08f91")
+	)
+	(wire
+		(pts
+			(xy 129.54 78.486) (xy 135.636 78.486)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53c4b145-ef2d-4789-94b8-6cefd67fdefa")
+	)
+	(wire
+		(pts
+			(xy 151.384 30.607) (xy 143.129 30.607)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63402019-dd29-4fd8-9731-9d712c0b553c")
+	)
+	(wire
+		(pts
+			(xy 185.166 96.266) (xy 178.816 96.266)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c41955-2a05-4c2c-ba48-241ca58edf5b")
+	)
+	(wire
+		(pts
+			(xy 57.912 32.512) (xy 51.054 32.512)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7944c55f-1ad6-4949-ae5a-c333b1533e00")
+	)
+	(wire
+		(pts
+			(xy 43.434 32.512) (xy 43.434 38.862)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d6ab65a-f843-4db1-8786-a0b2bbca2634")
+	)
+	(wire
+		(pts
+			(xy 161.29 30.607) (xy 151.384 30.607)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82f08036-6735-455f-a55a-4fdfe2978238")
+	)
+	(wire
+		(pts
+			(xy 43.434 79.502) (xy 56.642 79.502)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "841b9f6a-f23a-41dc-a5ab-f138afcff806")
+	)
+	(wire
+		(pts
+			(xy 151.384 38.862) (xy 143.129 38.862)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a5cb5b-0325-4e70-afce-1c9b169dc390")
+	)
+	(wire
+		(pts
+			(xy 151.384 39.497) (xy 151.384 38.862)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a5e689d-1e86-4b4e-b394-97a85565b1d2")
+	)
+	(wire
+		(pts
+			(xy 43.434 43.942) (xy 43.434 79.502)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d76d5ff-5324-4a1b-b737-dc416aa157df")
+	)
+	(wire
+		(pts
+			(xy 129.54 88.646) (xy 135.636 88.646)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9394326b-e8fc-4022-9b61-b9d5faac5a97")
+	)
+	(wire
+		(pts
+			(xy 161.29 36.957) (xy 161.29 38.862)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e7e360b-711b-4d18-bccb-d98da3d9f104")
+	)
+	(wire
+		(pts
+			(xy 109.474 81.026) (xy 114.808 81.026)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0732174-204d-45fe-84cd-55df2e3f81e5")
+	)
+	(wire
+		(pts
+			(xy 129.54 83.566) (xy 135.636 83.566)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a34a33ed-1900-426d-a1d5-c68306f366cc")
+	)
+	(wire
+		(pts
+			(xy 47.244 43.942) (xy 47.244 74.422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a390690b-cf0c-4af4-98dd-e92835c84ca9")
+	)
+	(wire
+		(pts
+			(xy 185.166 102.616) (xy 185.166 96.266)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9b29420-ccee-4fb8-9ca4-caa209b0ab3c")
+	)
+	(wire
+		(pts
+			(xy 129.286 75.946) (xy 135.636 75.946)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf277f69-4630-44d4-90e4-2ff3528f2212")
+	)
+	(wire
+		(pts
+			(xy 39.624 86.106) (xy 56.388 86.106)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3130135-3d5c-4367-bd01-fe14e4fcddb4")
+	)
+	(wire
+		(pts
+			(xy 114.808 81.026) (xy 135.636 81.026)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d29cd4a0-ebb4-4eec-8f18-b3ba2930fccb")
+	)
+	(wire
+		(pts
+			(xy 51.054 69.342) (xy 56.642 69.342)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbfbe139-2a98-492d-98e9-8c588de331d8")
+	)
+	(wire
+		(pts
+			(xy 151.384 29.972) (xy 151.384 30.607)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc923967-9214-4eaf-9c12-486a20fbc742")
+	)
+	(wire
+		(pts
+			(xy 47.244 32.512) (xy 47.244 38.862)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea914b38-a631-47b8-b709-251a8b0fc6af")
+	)
+	(wire
+		(pts
+			(xy 143.129 30.607) (xy 143.129 31.877)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8cb4abd-2fee-4abb-846a-d727c78242e1")
+	)
+	(text "SPI PULLUP RESISTORS\n"
+		(exclude_from_sim no)
+		(at 48.768 24.13 0)
+		(effects
+			(font
+				(size 1.7 1.7)
+			)
+		)
+		(uuid "6a3f7f81-9928-43bf-b8c4-5a4f7a4a5ac8")
+	)
+	(global_label "M_SCK"
+		(shape input)
+		(at 129.54 83.566 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "218bf0c0-1f80-4821-8255-2b76b304bf19")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.3863 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M_MOSI"
+		(shape input)
+		(at 56.642 69.342 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "343286d1-61e4-4bc0-9dfe-d8874e9c2b82")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.6424 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M_CS"
+		(shape input)
+		(at 129.286 75.946 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "352b2f2b-471c-4a64-bb11-d171c8434dad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 121.4023 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 109.474 81.026 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95d5e090-be62-41f3-a594-658da5972195")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.3764 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M_CS"
+		(shape input)
+		(at 56.642 79.502 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97e38b75-e4d7-4632-b655-3fcec65422c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.5257 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M_MOSI"
+		(shape input)
+		(at 129.54 78.486 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a97e057-6872-4908-897c-628d89f080bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.5396 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 57.912 32.512 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3ec76b5-0a21-4617-a4b4-0059f421fb11")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 65.0096 32.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M_MISO"
+		(shape input)
+		(at 56.388 86.106 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c76bcd1f-1011-40d7-98cc-3f20552ce648")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.3884 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M_MISO"
+		(shape input)
+		(at 129.54 88.646 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8659383-343b-48b3-b56d-870ac0494f4f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.5396 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M_SCK"
+		(shape input)
+		(at 56.642 74.422 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e56e93f0-ae28-4011-8438-93a89fef3c16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 65.7957 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fridgeduino-rescue:C_Small-Device")
+		(at 143.129 34.417 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b4a255c-38f0-4fdc-a3c7-b981d8af0f2c")
+		(property "Reference" "C34"
+			(at 140.7922 33.2486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 140.7922 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 143.129 34.417 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.129 34.417 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.129 34.417 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb2de0ec-c4b6-402a-82c1-baa844c8c7eb")
+		)
+		(pin "2"
+			(uuid "2f76605b-6c08-4ab6-818d-3effb25f0194")
+		)
+		(instances
+			(project "dsp"
+				(path "/1eee296b-8ecf-48f0-9073-e89b01c2acce/2fdccc7d-9046-4e7e-a1ce-493f95a4b15d/e96506e8-2a8f-4ff0-a968-996b4d3a8f52"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fridgeduino-rescue:R_Small_US-Device")
+		(at 47.244 41.402 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d508081-7207-406b-b3c4-928c4d63dd0d")
+		(property "Reference" "R49"
+			(at 48.514 39.497 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 48.514 45.847 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 47.244 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 47.244 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 47.244 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b3a2db8-c6e0-4a60-854e-abdcdd5d8fbb")
+		)
+		(pin "2"
+			(uuid "6185ed5e-95be-401e-874b-0dc4752ce979")
+		)
+		(instances
+			(project "dsp"
+				(path "/1eee296b-8ecf-48f0-9073-e89b01c2acce/2fdccc7d-9046-4e7e-a1ce-493f95a4b15d/e96506e8-2a8f-4ff0-a968-996b4d3a8f52"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fridgeduino-rescue:+3V3-power")
+		(at 47.244 32.512 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d76134c-e83c-44a9-87f1-68d1254ed9e3")
+		(property "Reference" "#PWR049"
+			(at 47.244 36.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 47.625 28.1178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 47.244 32.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 47.244 32.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 47.244 32.512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b77f0623-c155-4293-9727-c2e58f64ce75")
+		)
+		(instances
+			(project "dsp"
+				(path "/1eee296b-8ecf-48f0-9073-e89b01c2acce/2fdccc7d-9046-4e7e-a1ce-493f95a4b15d/e96506e8-2a8f-4ff0-a968-996b4d3a8f52"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fridgeduino-rescue:C_Small-Device")
+		(at 161.29 34.417 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52542755-7fef-4ce8-b24e-dfea956e4aeb")
+		(property "Reference" "C35"
+			(at 165.608 32.639 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.01u"
+			(at 167.132 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 161.29 34.417 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 34.417 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 34.417 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fbde4f4-776f-43f6-a887-41eb928e0cf5")
+		)
+		(pin "2"
+			(uuid "cb4f89b0-da06-4eda-a6eb-c90bf70c0c57")
+		)
+		(instances
+			(project "dsp"
+				(path "/1eee296b-8ecf-48f0-9073-e89b01c2acce/2fdccc7d-9046-4e7e-a1ce-493f95a4b15d/e96506e8-2a8f-4ff0-a968-996b4d3a8f52"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fridgeduino-rescue:R_Small_US-Device")
+		(at 51.054 41.402 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "545ec727-be05-4ecc-9140-137c4c083fbc")
+		(property "Reference" "R50"
+			(at 52.324 39.497 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 52.324 45.847 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 51.054 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 51.054 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 51.054 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4c81df9-96d0-49c6-9205-64bbb871c567")
+		)
+		(pin "2"
+			(uuid "c666c7e1-e2e7-4f91-82ee-7fba85d0f871")
+		)
+		(instances
+			(project "dsp"
+				(path "/1eee296b-8ecf-48f0-9073-e89b01c2acce/2fdccc7d-9046-4e7e-a1ce-493f95a4b15d/e96506e8-2a8f-4ff0-a968-996b4d3a8f52"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fridgeduino-rescue:+3V3-power")
+		(at 114.808 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "579611ca-76ce-4422-a9d9-1c7cb995ed21")
+		(property "Reference" "#PWR051"
+			(at 114.808 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 114.427 65.4558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.808 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.808 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.808 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2de4cb7-109f-4363-aa4d-460a6c31cfca")
+		)
+		(instances
+			(project "dsp"
+				(path "/1eee296b-8ecf-48f0-9073-e89b01c2acce/2fdccc7d-9046-4e7e-a1ce-493f95a4b15d/e96506e8-2a8f-4ff0-a968-996b4d3a8f52"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fridgeduino-rescue:R_Small_US-Device")
+		(at 39.624 41.402 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e3b9ada-f852-4913-99f5-4b2c2c2aa375")
+		(property "Reference" "R47"
+			(at 40.894 39.497 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 40.894 45.847 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 39.624 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.624 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.624 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "379b6274-6e87-4252-96ae-977d89e2731b")
+		)
+		(pin "2"
+			(uuid "cb108764-60c0-4e9d-b0f6-941481c237f0")
+		)
+		(instances
+			(project "dsp"
+				(path "/1eee296b-8ecf-48f0-9073-e89b01c2acce/2fdccc7d-9046-4e7e-a1ce-493f95a4b15d/e96506e8-2a8f-4ff0-a968-996b4d3a8f52"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Micro_SD_Card")
+		(at 158.496 81.026 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bcb0f42-f7fc-4cfb-8665-f7f116b01969")
+		(property "Reference" "J1"
+			(at 159.131 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Micro_SD_Card"
+			(at 159.131 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.706 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://katalog.we-online.de/em/datasheet/693072010801.pdf"
+			(at 158.496 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Micro SD Card Socket"
+			(at 158.496 81.026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "fc1b66b3-9291-42cb-a5f7-87140bf6bd90")
+		)
+		(pin "1"
+			(uuid "e8bb34cd-ffb0-4c64-bf3d-dc8d0348d5f4")
+		)
+		(pin "3"
+			(uuid "add9f6e0-443a-42ab-94b4-ece08d23fc0c")
+		)
+		(pin "9"
+			(uuid "06a70e38-66c5-46c5-b5db-a198296c776d")
+		)
+		(pin "7"
+			(uuid "8ab7793b-6b0e-4c91-a855-dbea3d44461e")
+		)
+		(pin "2"
+			(uuid "2dd2dbbf-a383-43b1-a0d2-1989db94ac82")
+		)
+		(pin "8"
+			(uuid "ac7e71b8-c00b-4367-8ee0-f6c364db6b4e")
+		)
+		(pin "5"
+			(uuid "2f162cae-5f51-4c72-82ab-0c16f7085623")
+		)
+		(pin "4"
+			(uuid "06ec9200-95c4-441b-81aa-c2a6d2f0ba01")
+		)
+		(instances
+			(project "dsp"
+				(path "/1eee296b-8ecf-48f0-9073-e89b01c2acce/2fdccc7d-9046-4e7e-a1ce-493f95a4b15d/e96506e8-2a8f-4ff0-a968-996b4d3a8f52"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fridgeduino-rescue:GND-power")
+		(at 151.384 39.497 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6de8727a-d407-4fab-aa7c-56dee7433341")
+		(property "Reference" "#PWR053"
+			(at 151.384 45.847 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.257 43.8912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.384 39.497 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.384 39.497 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.384 39.497 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4d280d1-d0e5-4418-b428-e257000de0c0")
+		)
+		(instances
+			(project "dsp"
+				(path "/1eee296b-8ecf-48f0-9073-e89b01c2acce/2fdccc7d-9046-4e7e-a1ce-493f95a4b15d/e96506e8-2a8f-4ff0-a968-996b4d3a8f52"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fridgeduino-rescue:GND-power")
+		(at 185.166 102.616 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ff35e5b-0e04-42e8-a671-dcda5b09a46f")
+		(property "Reference" "#PWR054"
+			(at 185.166 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.039 107.0102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.166 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.166 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.166 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a81e7d55-648a-4010-b2da-4352fec9fcf5")
+		)
+		(instances
+			(project "dsp"
+				(path "/1eee296b-8ecf-48f0-9073-e89b01c2acce/2fdccc7d-9046-4e7e-a1ce-493f95a4b15d/e96506e8-2a8f-4ff0-a968-996b4d3a8f52"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fridgeduino-rescue:R_Small_US-Device")
+		(at 43.434 41.402 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "badca33d-38fd-427f-bb0c-6114a964dc55")
+		(property "Reference" "R48"
+			(at 44.704 39.497 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 44.704 45.847 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 43.434 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.434 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.434 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da2863d8-64d4-40d3-84e9-e8006aa9da58")
+		)
+		(pin "2"
+			(uuid "b4f14c9c-acef-44b9-928b-d406078d87ac")
+		)
+		(instances
+			(project "dsp"
+				(path "/1eee296b-8ecf-48f0-9073-e89b01c2acce/2fdccc7d-9046-4e7e-a1ce-493f95a4b15d/e96506e8-2a8f-4ff0-a968-996b4d3a8f52"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fridgeduino-rescue:GND-power")
+		(at 112.522 97.79 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be6fa99a-071a-4c0b-956e-957f66a840b6")
+		(property "Reference" "#PWR050"
+			(at 112.522 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 112.395 102.1842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 112.522 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 112.522 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 112.522 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "728191e3-c147-4e2d-9fce-f16fe2c057fc")
+		)
+		(instances
+			(project "dsp"
+				(path "/1eee296b-8ecf-48f0-9073-e89b01c2acce/2fdccc7d-9046-4e7e-a1ce-493f95a4b15d/e96506e8-2a8f-4ff0-a968-996b4d3a8f52"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "fridgeduino-rescue:+3V3-power")
+		(at 151.384 29.972 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c11e6038-52a2-4cbc-ab10-d32b4a41e906")
+		(property "Reference" "#PWR052"
+			(at 151.384 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 151.003 25.5778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.384 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.384 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.384 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2ed9fdd-2f5d-4102-a492-af7a27c6819a")
+		)
+		(instances
+			(project "dsp"
+				(path "/1eee296b-8ecf-48f0-9073-e89b01c2acce/2fdccc7d-9046-4e7e-a1ce-493f95a4b15d/e96506e8-2a8f-4ff0-a968-996b4d3a8f52"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

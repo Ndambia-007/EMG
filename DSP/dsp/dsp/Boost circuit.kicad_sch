@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "078d8067-25fb-4d14-9b26-507d323bdf6d")
+	(paper "A5")
+	(title_block
+		(title "5V - 3V3 Buck")
+		(rev "V1.0")
+		(company "MyoGen Solutions")
+		(comment 1 "Designed By Eng. Ndambia M.")
+	)
+	(lib_symbols)
+)

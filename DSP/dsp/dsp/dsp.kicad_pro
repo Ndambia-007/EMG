@@ -578,8 +578,52 @@
       "Root"
     ],
     [
-      "7ed7a6f5-aae4-404d-abb2-e266b79c503c",
-      "Untitled Sheet"
+      "b5667eea-77fd-45a0-b2e7-78d52d0a8f82",
+      "DAQ"
+    ],
+    [
+      "58ec8800-7023-4c41-a24b-bb55a1d0f1f1",
+      "5v to 3V3"
+    ],
+    [
+      "caea2734-8abb-40e4-b512-7f0ec49c4579",
+      "ADC"
+    ],
+    [
+      "6fadceba-48a1-479d-810c-0ae5072522ae",
+      "ESP32 Wroom"
+    ],
+    [
+      "e4859ace-0892-4717-b651-cba6df8a238a",
+      "Flash Memory"
+    ],
+    [
+      "e96506e8-2a8f-4ff0-a968-996b4d3a8f52",
+      "Mass storage"
+    ],
+    [
+      "4296637b-4b49-4234-adc9-30fa2e159ef9",
+      "Type C USB"
+    ],
+    [
+      "778e8429-33be-4d50-bd0f-b62587424615",
+      "USB to Serial"
+    ],
+    [
+      "d8834ed0-8c27-4433-9bff-5537fbad1eba",
+      "3v3 to 12v"
+    ],
+    [
+      "2fdccc7d-9046-4e7e-a1ce-493f95a4b15d",
+      "MCU"
+    ],
+    [
+      "14a3934f-a92e-4b0b-b4e5-3b268dd46ef6",
+      "Floating Ground"
+    ],
+    [
+      "0d58aa5d-6e6d-4512-81ed-3e36559d3e17",
+      "Differential Circuit"
     ]
   ],
   "text_variables": {}
